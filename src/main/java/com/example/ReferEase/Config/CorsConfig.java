@@ -19,7 +19,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
-                        .allowedOrigins(fontend)
+                        .allowedOrigins("https://refer-ease-frontend-as5q.vercel.app/")
                         .allowedHeaders("*")
                         .allowCredentials(true);
             }
